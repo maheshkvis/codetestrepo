@@ -5,7 +5,7 @@ For task 2 and task 3, APIs have been created
 
 ### Instance Metadata
 
-Instance metadata API is fetching Azure VM metadata, for the Azure app authentication I have used the System defined managed identity and the API hosted on the Azure function app and enabled the function app authentication.
+Instance metadata API is fetching Azure VM metadata, for the Azure app authentication I have used the System defined managed identity, the API hosted on the Azure function app with function authentication.
 
 The application requires subscription id, resource group name, and VM name but for the POC it’s inbuild in code.
 
